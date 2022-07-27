@@ -33,8 +33,7 @@
 		"prepare": "husky install",
 		"prepublish": "dts build --target node --format cjs --rollupTypes",
 		"start": "dts watch",
-		"test": "dts test --maxWorkers=4 --verbose",
-		"postinstall": "yarn build"
+		"test": "dts test --maxWorkers=4 --verbose"
 	},
 	"prettier": {
 		"printWidth": 100,
